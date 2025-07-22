@@ -8,7 +8,7 @@ import onnxruntime as ort
 class Config:
     IMG_SIZE = (224, 224)
     CLASS_NAMES = ['AMD', 'CNV', 'CSR', 'DME', 'DR', 'DRUSEN', 'MH', 'NORMAL']
-    MODEL_PATH = r"C:\Users\Antino\OneDrive\Desktop\oct_eye\model\ensemble_model.onnx"
+    MODEL_PATH = r"main/model/ensemble_model.onnx"
     CLASS_DESCRIPTIONS = {
         'AMD': 'Age-related Macular Degeneration: affects central vision.',
         'CNV': 'Choroidal Neovascularization: abnormal blood vessel growth under retina.',
