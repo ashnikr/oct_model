@@ -1,0 +1,9 @@
+streamlit
+tensorflow
+matplotlib
+seaborn
+scikit-learn
+tqdm
+pillow
+onnxruntime
+tf2onnx
